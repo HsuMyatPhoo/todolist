@@ -1,0 +1,142 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    /* background-color:black; */
+   /* background:linear-gradient(45deg,red 10%,blue 8%) */
+   background: #111;
+}
+/* date and time  */
+.date{
+    width:200px;
+    font-size:20px;
+    /* color:rgb(163, 10, 163); */
+    color:gold;
+
+    padding:8px 15px;
+    /* border-radius:20px;
+    border:3px groove #fff; */
+
+    text-align:center;
+}
+
+.main-container{
+    width:100%;
+
+    display:flex;
+    justify-content:center;
+}
+.todolist{
+    width:450px;
+    
+    background:#eee;
+    /* color:rgb(211, 31, 211); */
+    /* color:gold; */
+    /* color:#fff; */
+
+    padding:20px;
+    border-radius:10px;
+
+}
+
+/* first section of todolist  */
+.content{
+    border-bottom:2px dashed #fff;
+}
+.content h1{
+    color:gold;
+    text-shadow:3px 3px 4px rgb(17, 16, 16);
+    
+    text-align:center;
+    padding:0;
+    margin:0;
+    
+    font-size:32px;
+    font-weight:bolder;
+    letter-spacing:0.3em;
+}
+form label{
+    font-size:20px;
+}
+form input{
+    width:330px;
+    height:30px;
+    border:none;
+    font-size:inherit;
+
+   
+    color:black;
+    background:#eee;
+   
+    border-bottom:2px solid #fff;
+    
+}
+
+form input:focus{
+    outline:none;
+}
+
+form button{
+    border:none;
+    padding:10px 15px;
+    margin:10px;
+    margin-left:40%;
+
+    background-color:gold;
+    box-shadow:-4px -4px 4px #888,4px 4px 4px #888;
+
+    border-radius:7px;
+    cursor: pointer;
+    transition:0.08s;
+}
+form button:active{
+    transform:translateY(2px);
+}
+
+/* end  */
+
+
+/* second section of todolist 
+ */
+ .action{
+    margin:10px auto;
+ }
+ .action h2{
+     color:gold;
+    text-align:center;
+    padding:0;
+    margin:0;
+    letter-spacing:2px;
+ }
+
+.action ul{
+    width:80%;
+    color:black;
+    list-style-type: none;
+    padding:0;
+    margin:5px 10%;
+}
+ul li{
+    font-size:20px;
+    display:flex;
+    justify-content:space-between;
+}
+li a{
+    text-decoration:none;
+    color:red;
+}
+.action button{
+    width:auto;
+    padding:6px 10px;
+    /* background:rgb(220, 78, 220); */
+    background-color:red;
+    color:#f1f1f1;
+    border:none;
+    border-radius:5px;
+
+    margin:10px;
+    margin-left:10%;
+    cursor: pointer;
+}
+
